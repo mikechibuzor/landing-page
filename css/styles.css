@@ -334,6 +334,9 @@ footer{
 
 
 /* burger */
+.btnn{
+    display: none;
+}
 .burger{
     position: fixed;
     right: 1rem;
@@ -379,6 +382,9 @@ footer{
      }
 }
 @media screen and (max-width: 768px){
+    .btnn {
+        display: block;
+    }
     #nav-bar{
         /* display: none; */
         position: absolute;
