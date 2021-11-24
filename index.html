@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Landing page</title>
+</head>
+<body>
+    <div class="container">
+        <!-- header element starts -->
+        <header id="header">
+            <!-- logo -->
+            <div class="rotating" id="header-img">
+                <a class="rotating" href="#">
+                    <img class="rotating" src="./images/code-logo.jpg" alt="logo">
+                </a>
+            </div>
+
+            <!-- nav element -->
+            <nav id="nav-bar">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#features" class="nav-link"> Features</a>
+                    </li>
+                    <li>
+                        <a href="#works" class="nav-link"> How it works</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header element ends -->
+
+        <!-- form -->
+        <div id="form">
+            <h3>Handcrafted, home-made masterpieces</h3>
+            <form action="/static.html">
+                <div class="form-element">
+                    <input type="email" placeholder="Enter your email address" required />
+                </div>
+                <div class="form-element btn">
+                    <button id="submit" type="submit">Get Started</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- features -->
+        <div id="features">
+            <div class="fcont">
+                <div class="feature">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                    </svg>
+                </div>
+                <div class="text">
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
+                    </svg>
+                </div>
+                <div class="text">
+                    <h3>Fast Shipping</h3>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+                    </svg>
+                </div>
+                <div class="text">
+                    <h3>Quality Assurance</h3>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- embedded video -->
+        <div id="works" class="embedded-video">
+            <div class="video">
+                <video controls autoplay>
+                    <source src="https://youtu.be/y8Yv4pnO7qc" type="video/webm" />
+                    <source src="https://youtu.be/y8Yv4pnO7qc" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+        <!-- cards pricing -->
+        <div id="pricing" >
+            <div class="cards">
+                <div class="card">
+                <h2>TENOR TROMBONE</h2>
+                <h4>$600</h4>
+                <p>Lorem ipsum dolor<br /><br /> sit amet consectetur<br /><br /> adipisicing elit. Vel<br /><br />, perferendis</p>
+                <button>SELECT</button>
+            </div>
+            <div class="card">
+                <h2>BASS TROMBONE</h2>
+                <h4>$900</h4>
+                 <p>Lorem ipsum dolor<br /><br /> sit amet consectetur<br /><br /> adipisicing elit. Vel<br /><br />, perferendis</p>
+                <button>SELECT</button>
+            </div>
+            <div class="card">
+                <h2>VALVE TROMBONE</h2>
+                <h4>$1200</h4>
+                 <p>Lorem ipsum dolor<br /><br /> sit amet consectetur<br /><br /> adipisicing elit. Vel<br /><br />, perferendis</p>
+                <button>SELECT</button>
+            </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <p>Privacy Terms Contact Copyright 2016, Original Trombones</p>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>
