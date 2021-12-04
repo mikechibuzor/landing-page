@@ -42,8 +42,6 @@ img{
     cursor: pointer;
 }
 
-
-
 /* rotate image in logo */
 @-webkit-keyframes rotating
 
@@ -225,7 +223,7 @@ a.active:hover::before {
  }
  #features .fcont{
      
-      width: 70%;
+      width: 68%;
       margin-top: 14rem;
  }
  
@@ -264,7 +262,7 @@ svg{
       margin-top: 4rem;
   }
 
-  .video video{
+  .video iframe{
       width: 100%;
       height: 100%;
   }
@@ -347,6 +345,13 @@ footer{
     width: 2rem;
 }
 
+
+/* media queries responsiveness */
+@media screen and (min-width: 1900px){
+    svg{
+        width: 6.5rem;
+    }
+}
 @media screen and (min-width: 1600px){
      #features .fcont {
          width: 55%;
@@ -382,6 +387,9 @@ footer{
      }
 }
 @media screen and (max-width: 768px){
+     a.nav-link::before{
+         background: white;
+     }
     .btnn {
         display: block;
     }
@@ -420,6 +428,7 @@ footer{
     }
     .cards{
         grid-template-columns: 1fr;
+        margin-top: 4rem;
     }
     #features .fcont{
         width: 100%;
